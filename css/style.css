@@ -1,0 +1,307 @@
+:root{
+    --blanco:#ffffff;
+    --oscuro:#212121;
+    --primario: #ffc107;
+    --secundario: #757575;
+    --grisClaro: #dfe9fe;
+
+
+}
+/* Tipografias*/
+h1, h2, h3{
+text-align: center;
+}
+h1{
+    font-size: 3.8rem;
+    color:rgb(69, 179, 171);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    font-size: 2.8rem;
+   font-family: cursive;
+}
+h3{
+    font-size: 1.8rem;
+    font-family: cursive;
+
+}
+
+h5{
+    font-size: 1.8rem;
+    font-family: cursive;
+    color: #212121; 
+}
+
+h6{
+    font-size: 1.8rem;
+    font-family: cursive;
+    color: #f7f3f3; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+/*Titulos*/
+.titulo span{
+    font-size: 2rem;
+    color: var(--primario);
+    
+}
+.navegacion{
+    background-color:rgb(58, 50, 175) ;
+    padding: 1rem;
+}
+.navegacion-principal{
+    display: inline;
+    flex-direction: column;
+
+}
+@media (min-width:480px){
+    display: flex;
+    flex-direction: row;
+}
+.navegacion-principal a{
+    display: inline;
+    text-align: center;
+    color: var(--blanco);
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2.4rem;
+    font-weight: bold;
+
+}
+.navegacion-principal a:hover{
+    background-color: var(--secundario);
+    color: var(--oscuro);
+}
+.boton{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    border: none;
+    text-align: center;
+    border-radius: 5rem;
+    
+}
+.contenedor{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+@media (min-width:768px){
+    display: grid;
+    grid- grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto 20rem;
+    column-gap: 1rem;
+}
+.fondo{
+    background-image: url(../img/6187e9226969b30607c22591376850b7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fondo2{
+    background-image: url(../img/habitación-vacía-de-color-gris-oscuro-con-fondo-degradado-gris-de-lujo-para-mostrar-su-producto.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.fondo3{
+    background-image: url(../img/fondob.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fondo4{
+    background-image: url(../img/escritorio-de-oficina-a1yivbaxal92jim2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.fondo5{
+    background-image: url(../img/habitación-vacía-de-color-gris-oscuro-con-fondo-degradado-gris-de-lujo-para-mostrar-su-producto.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.fondo6{
+    background-image: url(../img/habitación-vacía-de-color-gris-oscuro-con-fondo-degradado-gris-de-lujo-para-mostrar-su-producto.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    background-color: rgba(red, green, blue);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Formulario*/
+.formulario{
+    background-color:rgb(24, 20, 20);
+    width: min(60rem,100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.formulario fieldset{
+    border: none;
+}
+.formulario legend{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: var(--primario);
+}
+ @media (min-width: 768px){
+.contenedor-campos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto 20rem;
+    column-gap: 2rem;
+}
+.campo:nth-child(3),
+.campo:nth-child(4){
+    grid-column: 1/3;
+}
+ }            
+ .campo{
+    margin-bottom: 1rem;
+
+ }
+ .campo label{
+
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+ }
+ .input-text{
+width: 95%;
+border: none;
+padding: .5rem;
+border-radius: .5rem;
+ }
+ .campo textarea{
+height: 15rem;
+
+ }
+
+ /*formacion academica*/
+ @media (min-width: 768px){
+.formacion {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+column-gap: 1rem;
+
+}
+
+ }
+
+ .escuela {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+ }
+ .escuela h4{
+color: black;
+font-weight: normal;
+font-family: cursive;
+ }
+ .escuela p{
+    line-height: 2;
+    text-align: center;
+    color: #373263;
+
+ }
+
+ /*datos persoales*/
+
+ @media (min-width: 768px){
+    .datos{
+        display: grid;
+grid-template-columns: repeat(3,2fr);
+column-gap: 3rem;
+    }
+ }
+ .personales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+     }
+     .personales h4{
+    color:rgb(36, 12, 153);
+    font-weight: normal;
+    margin-bottom: 0;
+    font-family: cursive;
+     }
+     .personales p{
+        line-height: 3;
+        text-align: center;
+        margin-top: 0;
+        font-family: 'Times New Roman', Times, serif;
+     }
+     .foto{
+        width: 200px;
+        height: 200px;
+        background-image: url(../img/foto.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin: auto;
+     }
+     
