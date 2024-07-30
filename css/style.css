@@ -303,5 +303,10 @@ column-gap: 3rem;
         background-size: cover;
         border-radius: 50%;
         margin: auto;
-     }
+     } 
+@media(max-width: 390px){
+    .navegacion-principal a{
+        display:block;
+    }
+}
      
